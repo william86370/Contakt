@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9364FDB11B4CABA000E19DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364FDB01B4CABA000E19DD3 /* AppDelegate.swift */; };
+		9364FDB31B4CABA000E19DD3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364FDB21B4CABA000E19DD3 /* MasterViewController.swift */; };
+		9364FDB51B4CABA000E19DD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364FDB41B4CABA000E19DD3 /* DetailViewController.swift */; };
+		9364FDB81B4CABA100E19DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9364FDB61B4CABA100E19DD3 /* Main.storyboard */; };
+		9364FDBA1B4CABA100E19DD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9364FDB91B4CABA100E19DD3 /* Images.xcassets */; };
+		9364FDBD1B4CABA100E19DD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9364FDBB1B4CABA100E19DD3 /* LaunchScreen.xib */; };
+		9364FDC91B4CABA100E19DD3 /* ContaktTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364FDC81B4CABA100E19DD3 /* ContaktTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9364FDC31B4CABA100E19DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9364FDA31B4CABA000E19DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9364FDAA1B4CABA000E19DD3;
+			remoteInfo = Contakt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9364FDAB1B4CABA000E19DD3 /* Contakt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contakt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9364FDAF1B4CABA000E19DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9364FDB01B4CABA000E19DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9364FDB21B4CABA000E19DD3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9364FDB41B4CABA000E19DD3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9364FDB71B4CABA100E19DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9364FDB91B4CABA100E19DD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9364FDBC1B4CABA100E19DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9364FDC21B4CABA100E19DD3 /* ContaktTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContaktTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9364FDC71B4CABA100E19DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9364FDC81B4CABA100E19DD3 /* ContaktTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaktTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9364FDA81B4CABA000E19DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364FDBF1B4CABA100E19DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9364FDA21B4CABA000E19DD3 = {
+			isa = PBXGroup;
+			children = (
+				9364FDAD1B4CABA000E19DD3 /* Contakt */,
+				9364FDC51B4CABA100E19DD3 /* ContaktTests */,
+				9364FDAC1B4CABA000E19DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9364FDAC1B4CABA000E19DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9364FDAB1B4CABA000E19DD3 /* Contakt.app */,
+				9364FDC21B4CABA100E19DD3 /* ContaktTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9364FDAD1B4CABA000E19DD3 /* Contakt */ = {
+			isa = PBXGroup;
+			children = (
+				9364FDB01B4CABA000E19DD3 /* AppDelegate.swift */,
+				9364FDB21B4CABA000E19DD3 /* MasterViewController.swift */,
+				9364FDB41B4CABA000E19DD3 /* DetailViewController.swift */,
+				9364FDB61B4CABA100E19DD3 /* Main.storyboard */,
+				9364FDB91B4CABA100E19DD3 /* Images.xcassets */,
+				9364FDBB1B4CABA100E19DD3 /* LaunchScreen.xib */,
+				9364FDAE1B4CABA000E19DD3 /* Supporting Files */,
+			);
+			path = Contakt;
+			sourceTree = "<group>";
+		};
+		9364FDAE1B4CABA000E19DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9364FDAF1B4CABA000E19DD3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9364FDC51B4CABA100E19DD3 /* ContaktTests */ = {
+			isa = PBXGroup;
+			children = (
+				9364FDC81B4CABA100E19DD3 /* ContaktTests.swift */,
+				9364FDC61B4CABA100E19DD3 /* Supporting Files */,
+			);
+			path = ContaktTests;
+			sourceTree = "<group>";
+		};
+		9364FDC61B4CABA100E19DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9364FDC71B4CABA100E19DD3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9364FDAA1B4CABA000E19DD3 /* Contakt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9364FDCC1B4CABA100E19DD3 /* Build configuration list for PBXNativeTarget "Contakt" */;
+			buildPhases = (
+				9364FDA71B4CABA000E19DD3 /* Sources */,
+				9364FDA81B4CABA000E19DD3 /* Frameworks */,
+				9364FDA91B4CABA000E19DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contakt;
+			productName = Contakt;
+			productReference = 9364FDAB1B4CABA000E19DD3 /* Contakt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9364FDC11B4CABA100E19DD3 /* ContaktTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9364FDCF1B4CABA100E19DD3 /* Build configuration list for PBXNativeTarget "ContaktTests" */;
+			buildPhases = (
+				9364FDBE1B4CABA100E19DD3 /* Sources */,
+				9364FDBF1B4CABA100E19DD3 /* Frameworks */,
+				9364FDC01B4CABA100E19DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9364FDC41B4CABA100E19DD3 /* PBXTargetDependency */,
+			);
+			name = ContaktTests;
+			productName = ContaktTests;
+			productReference = 9364FDC21B4CABA100E19DD3 /* ContaktTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9364FDA31B4CABA000E19DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "A.R.C software and enginering";
+				TargetAttributes = {
+					9364FDAA1B4CABA000E19DD3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9364FDC11B4CABA100E19DD3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9364FDAA1B4CABA000E19DD3;
+					};
+				};
+			};
+			buildConfigurationList = 9364FDA61B4CABA000E19DD3 /* Build configuration list for PBXProject "Contakt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9364FDA21B4CABA000E19DD3;
+			productRefGroup = 9364FDAC1B4CABA000E19DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9364FDAA1B4CABA000E19DD3 /* Contakt */,
+				9364FDC11B4CABA100E19DD3 /* ContaktTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9364FDA91B4CABA000E19DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364FDB81B4CABA100E19DD3 /* Main.storyboard in Resources */,
+				9364FDBD1B4CABA100E19DD3 /* LaunchScreen.xib in Resources */,
+				9364FDBA1B4CABA100E19DD3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364FDC01B4CABA100E19DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9364FDA71B4CABA000E19DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364FDB51B4CABA000E19DD3 /* DetailViewController.swift in Sources */,
+				9364FDB31B4CABA000E19DD3 /* MasterViewController.swift in Sources */,
+				9364FDB11B4CABA000E19DD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364FDBE1B4CABA100E19DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364FDC91B4CABA100E19DD3 /* ContaktTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9364FDC41B4CABA100E19DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9364FDAA1B4CABA000E19DD3 /* Contakt */;
+			targetProxy = 9364FDC31B4CABA100E19DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9364FDB61B4CABA100E19DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9364FDB71B4CABA100E19DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9364FDBB1B4CABA100E19DD3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9364FDBC1B4CABA100E19DD3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9364FDCA1B4CABA100E19DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9364FDCB1B4CABA100E19DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9364FDCD1B4CABA100E19DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contakt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9364FDCE1B4CABA100E19DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contakt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9364FDD01B4CABA100E19DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContaktTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contakt.app/Contakt";
+			};
+			name = Debug;
+		};
+		9364FDD11B4CABA100E19DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContaktTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contakt.app/Contakt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9364FDA61B4CABA000E19DD3 /* Build configuration list for PBXProject "Contakt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364FDCA1B4CABA100E19DD3 /* Debug */,
+				9364FDCB1B4CABA100E19DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9364FDCC1B4CABA100E19DD3 /* Build configuration list for PBXNativeTarget "Contakt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364FDCD1B4CABA100E19DD3 /* Debug */,
+				9364FDCE1B4CABA100E19DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9364FDCF1B4CABA100E19DD3 /* Build configuration list for PBXNativeTarget "ContaktTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364FDD01B4CABA100E19DD3 /* Debug */,
+				9364FDD11B4CABA100E19DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9364FDA31B4CABA000E19DD3 /* Project object */;
+}
