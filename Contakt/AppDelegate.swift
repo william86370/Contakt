@@ -7,19 +7,63 @@
 //
 
 import UIKit
-
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
+import Parse
+import Bolts
+import FBSDKCoreKit
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    func applicationWillResignActive(application: UIApplication) {
+    @UIApplicationMain
+    class AppDelegate: UIResponder, UIApplicationDelegate {
+        
+        
+        
+        
+        
+        var window: UIWindow?
+        
+        func grabStoryboard() -> UIStoryboard {
+            var storyboard = UIStoryboard()
+            var height = UIScreen.mainScreen().bounds.size.height
+            
+            if height == 568 {
+                storyboard = UIStoryboard(name: "iphone5", bundle: nil)
+            } else {
+                storyboard = UIStoryboard(name: "iphone6", bundle: nil)
+            }
+            return storyboard
+        }
+        
+        
+        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        Parse.enableLocalDatastore()
+            ParseCrashReporting.enable();
+            Parse.setApplicationId("u4gTkPGwWjEiHnJEXQV85o0m0ixTG1ccgVIC3BWa",
+                clientKey: "XgzgtUcuehk45oqrpgZiT8vcp5e2n6PhpXAq0lPx")
+           
+            PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
+            
+            PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+            
+            
+            var storyboard: UIStoryboard = self.grabStoryboard()
+            
+            self.window?.rootViewController =
+                (storyboard.instantiateInitialViewController() as! UIViewController)
+            self.window?.makeKeyAndVisible()
+            
+            return true
+        }
+        func application(application: UIApplication,
+            openURL url: NSURL,
+            sourceApplication: String?,
+            annotation: AnyObject?) -> Bool {
+                return FBSDKApplicationDelegate.sharedInstance().application(application,
+                    openURL: url,
+                    sourceApplication: sourceApplication,
+                    annotation: annotation)
+        }
+        
+                func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
@@ -35,12 +79,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
+         FBSDKAppEvents.activateApp()
+        }
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
 
-}
 
+
+}
